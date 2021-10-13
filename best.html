@@ -7,29 +7,80 @@
             text-decoration:none;
         }
         footer{
-            background-color:rgb(183, 222, 248);
-            height: 200px ;
-            font-family: 'Arial';
+            background-color:rgb(82, 214, 126);
+            height: 150px ;
+            font-family: Verdana;
             font-size: small;
+            margin-top: 100px;
+            width: 100%;
+        }
+        .container{
+            background-color:rgb(255, 255, 255);
+            width: 100%;
+            margin: auto;
+        }
+        .otstup1{
+            margin-top: 45px;
+            font-family: Verdana;
+            font-size: 38px;
+            color: rgb(82, 214, 126);
+        }
+        .otstup2{
+            margin-top: 50px;
+        }
+        header{
+            height:  130px;
+            background-color:rgb(82, 214, 126);
+        }
+        .menu1{
+            display:inline
+        }
+        .menu2{
+            width:25%;
+            margin-left: auto;
+            margin-right: 0;
+            text-align: right;
+            margin-top: 0;
+            position: absolute;
+            top:1%%;
+            right: 1%;
+            font-family:Verdana;
+        }
+        .menu0{
+            width: 50%  ;
+            margin: 0%;
+            padding: 0%;
+            position: absolute;
+            right:25%;
+            top:4%;
+        }
+        .p{
+        font-family: Verdana;  
+        color:rgb(123, 255, 152) ;
+        margin-top: 20px;
         }
     </style>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
 <body>
-    <a href="best.html">Главная</a>
-    <p></p>
-    <a href="Catalog.html">Каталог</a>
-    <p></p>
-    <a href="We.html">О нас</a>
-   <h1><center>Добро пожаловать в интернет-магазин рыбов</center></h1> 
-   <p>*Рыбов не продаём, только показываем</p>
-   <center><img src="СуперКот.jpg"></center>
-   <p></p>
-   <footer>
-        <a href="https://ru.wikipedia.org/wiki/%D0%A0%D1%8B%D0%B1%D1%8B">О рыбах</a>
-        <p></p>
-        <a href="https://memepedia.ru/vy-prodaete-rybov/">Почему только показываем?</a>
-        <p>Автор сайта: Татьяна Симонова</p>
-   </footer>
+    <div class="container">
+        <header>
+            <center><div class="menu0"><img src="логотип.jpg"></div></center>
+            <div class="menu2">
+                <div class="menu1"><a href="best.html">Главная</a></div>
+                <div class="menu1"><a href="Catalog.html">Каталог</a></div>
+                <div class="menu1"><a href="We.html">О нас</a></div>
+            </div>
+        </header>
+        <div class="otstup1"><strong><h1"><center>Вы зашли в в интернет-магазин рыбов</center></h1></strong></div>
+        <div class="otstup2"><center><img src="Кот.jpg"></center></div>
+        <div class="p"><p>*Рыбов не продаём, только показываем</p></div>
+        <footer>
+            <a href="https://ru.wikipedia.org/wiki/%D0%A0%D1%8B%D0%B1%D1%8B">О рыбах</a>
+            <p></p>
+            <a href="https://memepedia.ru/vy-prodaete-rybov/">Почему только показываем?</a>
+            <p>Автор сайта: Татьяна Симонова</p>
+        </footer>
+   </div>
 </body>
